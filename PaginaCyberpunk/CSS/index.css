@@ -1,0 +1,114 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    z-index: 100;
+    margin-top: 120px;
+}
+
+.section_experiencia {
+    max-width: 45%;
+    height: auto;
+    margin-right: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.experiencia_text {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 2.4rem;
+}
+
+.experiencia_button {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px 10px 50px 10px;
+    -moz-border-radius: 10px 10px 50px 10px;
+    -webkit-border-radius: 10px 10px 50px 10px;
+    background: none;
+}
+
+.experiencia_text_button {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+.experiencia_plataformas {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.plataformas_sep {
+    border-radius: 25px 25px 25px 25px;
+    -moz-border-radius: 25px 25px 25px 25px;
+    -webkit-border-radius: 25px 25px 25px 25px;
+    border: 0px solid #000000;
+    padding: 10px;
+}
+
+.plataformas_text {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.article_news{
+    padding-top: 30px;
+    border-top: 2px solid gray;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+}
+
+.section_news{
+    max-width: 450px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+}
+.section_news:nth-child(2){
+    flex-wrap: wrap;
+}
+
+.newsLeft_img{
+    width: 100%;
+    height: auto;
+}
+
+.newsaRight_imgs{
+    width: 200px;
+}
+
+.news_button{
+    position: relative;
+    bottom: 10;
+    left: 45%;
+    padding: 10px;
+    border: 2px solid rgb(0, 251, 255);
+    border-radius: 10px 10px 50px 10px;
+    -moz-border-radius: 10px 10px 50px 10px;
+    -webkit-border-radius: 10px 10px 50px 10px;
+    background: none;
+}
+
+.news_text_button{
+    text-align: center;
+    text-decoration: none;
+    color:  rgb(0, 251, 255);
+    font-size: 1rem;
+}
